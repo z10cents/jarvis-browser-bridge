@@ -1,0 +1,14 @@
+{
+  "name": "jarvis-browser-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "WebSocket bridge server for Jarvis to control Chrome via Playwright CDP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.52.0",
+    "ws": "^8.18.0"
+  }
+}
